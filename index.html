@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h2>Mon Portfolio</h2>
+    <nav id="menu">
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="menuBtn">☰</button>
+  </header>
+
+  <section id="accueil">
+    <div class="profile-container">
+      <div class="profile-text">
+        <h2>DJEDANOUM Josué</h2>
+        <h3>Développeur Web & Ingenieur en Cybersécurité</h3>
+        <div class="description-box">
+          <p> - Spécialiste en développement web sécurisé</p>
+          <p> - 1 mois d'expérience dans la création de solutions digitales</p>
+        </div>
+      </div>
+      <img src="/home/djedano/Bureau/SIMPLON BRIEF/PORTFOLIO/port.jpg" alt="Photo de profil" class="profile-img">
+    </div>
+  </section>
+
+  <section id="apropos" class="section-dark">
+    <div class="container">
+      <h1>À propos de moi</h1>
+      <div class="about-content">
+        <p>
+          Ingénieur en cybersécurité et développeur web passionné par les technologies web modernes.
+          Expertise dans la conception d'architectures robustes et d'applications performantes.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projets">
+    <h2>Mes Réalisations</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="/home/djedano/Bureau/SIMPLON BRIEF/PORTFOLIO/structural.png" alt="Structural">
+        <h3>Structural engineering</h3>
+        <p>La structuration et l'architecture des systèmes informatiques</p>
+      </div>
+      <div class="project-card">
+        <img src="/home/djedano/Bureau/SIMPLON BRIEF/PORTFOLIO/GreenOvaLab.png" alt="GreenOvaLab">
+        <h3>GreenOvaLab</h3>
+        <p>Une start-up spécialisée dans la prestation de services informatiques</p>
+      </div>
+      <div class="project-card">
+        <img src="/home/djedano/Bureau/SIMPLON BRIEF/PORTFOLIO/groupe dev.png" alt="Groupe Dev-Tchad">
+        <h3>Groupe Dev-Tchad</h3>
+        <p>Groupe de développeurs pour l'inovation du numerique au Tchad</p>
+      </div>
+     
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contactez-moi</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Votre nom" required>
+      <input type="email" placeholder="Votre email" required>
+      <textarea placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
